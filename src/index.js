@@ -12,6 +12,8 @@ const customStyle = {
   border: "1px solid black"
 };
 
+customStyle.color = "blue";
+
 ReactDOM.render(
   <div>
     <h1 style={customStyle} contentEditable="true">
